@@ -1,0 +1,208 @@
+    /* -----algemene stijl----- moet nog alternatieve font komen*/
+body{
+    font-family: Sylfaen;
+}
+div{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+h1, h2{
+    text-shadow: 0.7px 0.7px 1px #000;
+}
+
+.super{
+    font-size: xx-small;
+}
+
+    /* ----- navigatie balk ----- */
+.navigatie1{
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #212922;
+    position: fixed; 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.navigatie1 a{
+    display:flex;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #AEF6C7;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navigatie1 li{
+    float: left;
+}
+.inactive:hover{
+    background-color: #3E6259;
+    opacity: 80%;
+}
+.active{
+    background-color: #294936;
+}
+.active:hover{
+    background-color: #294936;
+    opacity: 80%;
+}
+
+    /* ----- Startpagina of Index----- */
+.imgindex{
+    width: auto;
+    height: 350px;
+    float: right;
+    border-radius: 14px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+}
+.linkindex{
+    color: #5B8266;
+}
+
+    /* ----- Tabel of Curriculum Vitae ----- */
+.tabel {
+    border-collapse: collapse;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+    font-size: 0.9em;
+    min-width: 400px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    width: 100%;
+    caption-side: bottom;
+    background-color: #294936;
+}
+
+.tabel td{    
+    border-bottom: #212922 1.2px solid;
+    border-right: #212922 1.2px solid;
+    height: 35px;
+}
+.tabeltitel{
+    padding-left: 20px;
+    font-weight: 700;
+    font-size: larger;
+}
+.tabeltitel2{
+    text-align: center;
+}
+.bgcolmns{
+    background-color: #AEF6C7;
+    color: #294936;
+    padding-left: 30px;
+}
+.bgcolmns2{
+    background-color: #9af3b9 ;
+    color: #294936;
+    padding-left: 30px;
+}
+#fotocolumn1{
+    width: 200px;
+}
+
+
+/* ----- Ervarings pagina ----- */
+
+
+
+/* ----- Hobby Pagina ----- */
+.containertitel{
+    width: 25%;
+    height: 30px;
+    display: flex;
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 0px;   
+    border-radius: 15px 15px 0px 0px;
+    overflow: hidden; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    background-color: #294936;
+    color: #AEF6C7;
+}
+.container2eerste{
+    width: 90%;
+    display: flex;
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    border-radius: 0px 15px 15px 15px;
+    overflow: hidden;
+    border-bottom: #212922 solid 1.5px; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    background-color: #AEF6C7;
+    color: #294936;
+}
+.container2rest{
+    width: 90%;
+    display: flex;
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin-bottom: 30px;
+    margin-left: 5%;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    border-bottom: #212922 solid 1.5px; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    background-color: #AEF6C7;
+    color: #294936;
+}
+.h2hobby{
+    margin-left: 20px;
+    margin-top: 2px;
+    margin-bottom: 0;
+    padding: 0;
+    font-size: larger;
+}
+p1{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.imghobby{
+    width: 300px;
+    height: auto;
+}
+
+/* ----- Contact pagina ----- */
+.contact{
+    float: right;
+
+}
+form{
+    width: 30%;
+    max-width: 245px;
+    min-width: 245px;
+    padding: 12px 20px;
+    margin-left: 5%;
+    border-radius: 15px 15px 15px 15px;
+    border-bottom: #212922 solid 1.5px; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    background-color: #294936;
+    color: #AEF6C7;
+}
+.divform{
+    padding: 2.5px;
+}
+
+.invoer{
+    background-color: #78ce96;
+    display: flex;
+}
+
+.imgcontact{
+    width: 550px;
+    height: auto;
+    border-radius: 15px 15px 15px 15px;
+    border-bottom: #212922 solid 1.5px; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+}

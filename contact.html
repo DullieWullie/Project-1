@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 Dul Kristiaan</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-color: #AEF6C7;
+            color: #5B8266;
+            padding:10px;
+            margin-left: 100px;
+            margin-right: 100px;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navigatie1">
+            <li class="inactive"><a href="index.html">Startpagina</a></li>
+            <li class="inactive"><a href="cv.html">Curriculum Vitae</a></li>
+            <li class="inactive"><a href="ervaring.html">Mijn ervaring</a></li>
+            <li class="inactive"><a href="hobby.html">Hobby's en interesses</a></li>
+            <li class="active"><a href="contact.html">Contacteer mij</a></li>
+        </ul>
+    </nav>
+
+    <h1>Contacteer mij</h1>
+        <div>
+        <p>Als je nog verdere vragen hebt, <br> misschien wel een job wilt aanbieden,<br>zo een prachtige website als deze wilt,
+            <br> een nieuwe vaste padelpartner zoekt, <br>of gewoon iets willekeurigs wilt zeggen, <br> aarzel dan <b>zeker niet</b> om contact te zoeken via volgende kanalen:</p>
+            <div class="contact">
+                <a href="mailto:kristiaandul@hotmail.com"> <img src="afbeeldingen/mailicon.png" title="Email" alt="Email" width="50" height="50"></a>
+                <a href="https://www.linkedin.com/kdul"> <img src="afbeeldingen/linkedinicon.png" title="Linked in" alt="Linked in" width="50" height="50"></a>
+                <a href="https://www.reddit.com/kdul"> <img src="afbeeldingen/redditicon.png" title="Reddit" alt="Reddit" width="50" height="50"></a>
+                <a href="https://twitter.com/kdul007"> <img src="afbeeldingen/twitttericon.png" title="twitter" alt="Twitter" width="50" height="50"></a>
+                <a href="https://discord.com/channels/@Kdul"> <img src="afbeeldingen/discordicon.png" title="Discord" alt="Discord" width="50" height="50"></a>
+                <a href="https://www.instagram.com/kdul007"> <img src="afbeeldingen/instagramicon.png" title="Instagram" alt="Instagram" width="50" height="50"></a>               
+            </div>
+            <br>
+            <br>
+            <br>
+            <p>Je kan ook gewoon direct contact zoeken via het contactformulie hieronder: </p>
+            <form action="https://tm-statweb.be/sendmail.php" method="post"> 
+                <div class="divform">
+                    <label for="voornaam"> Voornaam:</label>
+                    <input type="text" id="voornaam" name="voornaam" placeholder="Vornaam" class="invoer" pattern="[A-Za-z ]{1,30}" required placeholder="Enkel letters Maximum 30 Karakters" required/> 
+                </div>
+                <div class="divform">
+                    <label for="familienaam"> Familienaam:</label>
+                    <input type="text" id="amilienaam" name="familienaam" placeholder="Familienaam" class="invoer" pattern="[A-Za-z ]{1,30}" required placeholder="Enkel letters Maximum 30 Karakters" required/> 
+                </div>
+                <div class="divform">
+                    <label for="email"> Emailadres:</label>
+                    <input type="email" id="emailadres" name="emailadres" placeholder="naam@email.com" class="invoer" required/> 
+                </div>
+                <div class="divform">
+                    <label for="reactie"> Reactie:</label>
+                    <textarea id="reactie" name="reactie" placeholder="300 karakters maximum." cols="30" rows="5" class="invoer" rows="4" maxlength="300" required placeholder="Maximum 300 Karakters" required></textarea> 
+                </div>
+                <div class="divform">
+                    <input type="submit" value="Verzenden" />
+                </div>
+                </div>
+                    <input type="hidden" name="studentemail" value="kristiaandul@hotmail.com">
+                    <input type="hidden" name="subject" value="Reactie op Kdul.be">
+                <div>
+                    <img class="imgcontact" src="afbeeldingen/Dulhangmatchill.jpg" alt="Dulhangmat" title="Dul Wacht Op Mail">
+        </div>
+</body>
+</html>
