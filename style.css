@@ -17,9 +17,22 @@ div{
     justify-content: center;
     align-items: center;
     margin: 0;
+    padding: 0;
+}
+.divpapier{
+    width: 100%;
+    padding: 0px;
+    padding-top: 0px;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    background-color: #AEF6C7;
+    color: #294936;
 }
 p{
-    margin: 8px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
 }
 h1, h2{
     text-shadow: 0.7px 0.7px 1px #000;
@@ -27,8 +40,8 @@ h1, h2{
 h2{
     font-size: large;
     margin-bottom: 5px;
-    margin-top: 0;
-    margin-left: 0px;
+    margin-top: 7px;
+    margin-left: 20px;
 }
 .super{
     font-size: xx-small;
@@ -51,17 +64,7 @@ hr{
 .linkindex:visited{
     color: #5B8266;
 }
-.divpapier{
-    width: 100%;
-    padding: 0px;
-    padding-top: 0px;
-    padding-left: 19px;
-    border-radius: 15px 15px 15px 15px;
-    overflow: hidden; 
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
-    background-color: #AEF6C7;
-    color: #294936;
-}
+
 
     /* ----- navigatie balk ----- */
 
@@ -104,6 +107,7 @@ ul {
     background-color: #294936;
     opacity: 80%;
 }
+
 
     /* ----- Startpagina of Index----- */
 
