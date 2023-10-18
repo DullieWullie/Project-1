@@ -1,4 +1,4 @@
-    /* -----algemene stijl----- moet nog alternatieve font komen*/
+    /* -----algemene stijl----- */
 body{
     font-family: Sylfaen;
     background-color: #5B8266;
@@ -254,7 +254,7 @@ form{
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
     background-color: #294936;
     color: #AEF6C7;
-    margin-left: 30%;
+    margin-left: 33%;
 }
 .divform{
     padding: 2.5px;
