@@ -1,22 +1,35 @@
     /* -----algemene stijl----- moet nog alternatieve font komen*/
 body{
     font-family: Sylfaen;
+    background-color: #5B8266;
+    color: #AEF6C7;
+    padding:10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
 }
 div{
     padding-left: 5%;
     padding-right: 5%;
 }
+p{
+    margin: 8px;
+}
 h1, h2{
     text-shadow: 0.7px 0.7px 1px #000;
 }
-
+h2{
+    font-size: large;
+    margin-bottom: 5px;
+    margin-top: 0;
+    margin-left: 0px;
+}
 .super{
     font-size: xx-small;
 }
 hr{
     width: 60%;
-    border: #5B8266 solid 1.5px;
-    border-radius: 2px;
+    border: #294936 solid 0.1px;
 }
 .linkindex{ 
     color: #294936;
@@ -32,8 +45,20 @@ hr{
 .linkindex:visited{
     color: #5B8266;
 }
+.divpapier{
+    width: 100%;
+    padding: 0px;
+    padding-top: 0px;
+    padding-left: 19px;
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden; 
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+    background-color: #AEF6C7;
+    color: #294936;
+}
 
     /* ----- navigatie balk ----- */
+
 .navigatie1{
     top: 0;
     left: 0;
@@ -75,29 +100,19 @@ ul {
 }
 
     /* ----- Startpagina of Index----- */
+
 .imgindex{
     width: auto;
-    height: 350px;
+    height: 400px;
     float: right;
-    border-radius: 14px;
+    margin-left: 8px;
+    margin-left: 8px;
+    border-radius: 0px 0px 0px 0px;
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
-}
-.divindex{
-    width: 70%;
-    height: 30px;
-    display: flex;
-    padding: 0px;
-    padding-top: 0px;
-    padding-left: 0px;
-    margin-bottom: 0px;   
-    border-radius: 15px 15px 0px 0px;
-    overflow: hidden; 
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
-    background-color: #294936;
-    color: #AEF6C7;
 }
 
     /* ----- Tabel of Curriculum Vitae ----- */
+
 .tabel {
     border-collapse: collapse;
     border-radius: 15px 15px 0 0;
@@ -139,8 +154,11 @@ ul {
 
 
 /* ----- Ervaring pagina ----- */
+
 .lijst{
-    margin-left: 40%;
+    position: relative;
+    left: 35%;
+    right: 35%;
     background-color: #294936;
     border: #294936 solid 8px;
     color: #AEF6C7;
@@ -151,6 +169,7 @@ ul {
 
 
 /* ----- Hobby Pagina ----- */
+
 .containertitel{
     width: 25%;
     height: 30px;
@@ -200,7 +219,7 @@ ul {
     margin-top: 2px;
     margin-bottom: 0;
     padding: 0;
-    font-size: larger;
+    font-size: large;
 }
 p1{
     margin-left: 10px;
@@ -212,6 +231,7 @@ p1{
 }
 
 /* ----- Contact pagina ----- */
+
 .contact{
     float: right;
     max-width: 160px;
@@ -234,23 +254,21 @@ form{
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
     background-color: #294936;
     color: #AEF6C7;
-    position: absolute;
-    left: 32%;
-    right: 32%;
+    margin-left: 30%;
 }
 .divform{
     padding: 2.5px;
 }
 
 .invoer{
-    background-color: #78ce96;
+    background-color: #AEF6C7;
     display: flex;
 }
 
 .imgcontact{
-    width: 90%;
+    width: 100%;
     height: auto;
-    margin-left: 5%;
+    margin: 0%;
     border-radius: 15px 15px 15px 15px;
     border-bottom: #212922 solid 1.5px; 
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
