@@ -12,6 +12,12 @@ div{
     padding-left: 5%;
     padding-right: 5%;
 }
+.divcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
 p{
     margin: 8px;
 }
@@ -29,7 +35,7 @@ h2{
 }
 hr{
     width: 60%;
-    border: #294936 solid 0.1px;
+    border: #3E6259 solid 0.1px;
 }
 .linkindex{ 
     color: #294936;
@@ -111,11 +117,12 @@ ul {
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
 }
 
+
     /* ----- Tabel of Curriculum Vitae ----- */
 
 .tabel {
     border-collapse: collapse;
-    border-radius: 15px 15px 0 0;
+    border-radius: 15px 15px 3px 3px;
     overflow: hidden;
     font-size: 0.9em;
     min-width: 400px;
@@ -123,6 +130,7 @@ ul {
     width: 100%;
     caption-side: bottom;
     background-color: #294936;
+    border-bottom: #212922 solid 2px;
 }
 
 .tabel td{    
@@ -156,9 +164,6 @@ ul {
 /* ----- Ervaring pagina ----- */
 
 .lijst{
-    position: relative;
-    left: 35%;
-    right: 35%;
     background-color: #294936;
     border: #294936 solid 8px;
     color: #AEF6C7;
@@ -230,6 +235,7 @@ p1{
     height: auto;
 }
 
+
 /* ----- Contact pagina ----- */
 
 .contact{
@@ -254,7 +260,7 @@ form{
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
     background-color: #294936;
     color: #AEF6C7;
-    margin-left: 33%;
+    
 }
 .divform{
     padding: 2.5px;
@@ -266,10 +272,14 @@ form{
 }
 
 .imgcontact{
-    width: 100%;
+    width: 90%;
     height: auto;
     margin: 0%;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 6px 6px 6px 6px;
     border-bottom: #212922 solid 1.5px; 
     box-shadow: 0 0 25px rgba(0, 0, 0, 0.55);
+}
+.hrcontact{
+    width: 60%;
+    border: #AEF6C7 solid 0.1px;
 }
